@@ -1,0 +1,43 @@
+local/
+application-local.yml
+target/
+
+dist/
+node_modules/
+## yarn.lock   package.lock.json
+*.lock
+**/package.lock.json
+docker-compose.develop.yml
+docker-compose.override.yml
+
+## local ##
+frontend/**/vite.config.local.*
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.history
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### MacOS ###
+.DS_Store
